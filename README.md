@@ -1,4 +1,4 @@
-# ✨ SeedVR2 Studio
+# SeedVR2 Studio
 
 **Enhance your images and videos with SeedVR2 through a local web interface available in English and French.**
 
@@ -6,7 +6,7 @@
 
 > **About the visuals:** The images in this README are **illustrative mockups based on the interface code**, not screenshots of the application running. You can replace them with real screenshots later.
 
-## 🚀 Features
+## Features
 
 - **Image and video upscaling** powered by SeedVR2 and **SeedVR2 Lite (GGUF)** variants.
 - **Preview before export:** preview a full image, a video frame, or a sequence, with before/after comparison, zoom, and pan.
@@ -18,7 +18,7 @@
 - **System dashboard:** GPU, VRAM, temperature, CPU, RAM, processing speed, and estimated time remaining.
 - **Model manager:** resumable downloads, SHA-256 verification, deletion, and custom model directory selection.
 
-## 🖥️ Interface
+## Interface
 
 | Images | Videos |
 |---|---|
@@ -26,7 +26,7 @@
 
 Available sections: **Dashboard · Images · Videos · Queue · Models · Settings · Logs**.
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Windows 10/11 (64-bit)
 
@@ -46,7 +46,7 @@ chmod +x install.sh launch.sh update.sh uninstall.sh
 
 On macOS, install FFmpeg using `brew install ffmpeg`. Performance on Apple Silicon (MPS) may be slower.
 
-## 🧩 System Requirements
+## System Requirements
 
 | Component | Project-stated minimum | Recommended |
 |---|---|---|
@@ -58,7 +58,7 @@ On macOS, install FFmpeg using `brew install ffmpeg`. Performance on Apple Silic
 
 **Python 3.10–3.13** is supported (3.12 recommended). Performance depends on the model, available VRAM, and hardware.
 
-## 📦 Model Installation Presets
+## Model Installation Presets
 
 | Preset | Included models | Approximate download size |
 |---|---|---|
@@ -77,14 +77,14 @@ On macOS, install FFmpeg using `brew install ffmpeg`. Performance on Apple Silic
 
 **Application log:** `data/logs/seedvr2_studio.log`.
 
-## 📚 Documentation
+## Documentation
 
 - [Installation guide (French)](docs/GUIDE_INSTALLATION.md)
 - [User guide (French)](docs/GUIDE_UTILISATION.md)
 - [Architecture and tests](docs/ARCHITECTURE.md)
 - [Models and licenses (French)](docs/MODELES_ET_LICENCES.md)
 
-## 🛡️ Local Operation and Licensing
+## Local Operation and Licensing
 
 The web interface is hosted locally at `127.0.0.1:7860` by default. Initial downloads require network access. **SeedVR2 Studio** is licensed under **Apache-2.0** (see `LICENSE`). It integrates the third-party [ComfyUI-SeedVR2_VideoUpscaler](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler) engine, also licensed under Apache-2.0, and is based on [SeedVR2 / ByteDance Seed](https://github.com/ByteDance-Seed/SeedVR). See the [model credits and licensing terms](docs/MODELES_ET_LICENCES.md).
 
